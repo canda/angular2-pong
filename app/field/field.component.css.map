@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "field.component.css",
-	"sources": [
-		"field.component.scss"
-	],
-	"mappings": "AAAA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,MAAM,EAAE,eAAgB,GACzB",
-	"names": []
-}

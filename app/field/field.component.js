@@ -9,21 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var field_component_1 = require('./field/field.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var FieldComponent = (function () {
+    function FieldComponent() {
     }
-    AppComponent = __decorate([
+    FieldComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'app',
-            templateUrl: './app.component.html',
-            styleUrls: ['./app.component.css'],
-            directives: [field_component_1.FieldComponent]
+            selector: 'field',
+            templateUrl: './field.component.html',
+            styleUrls: ['./field.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], FieldComponent);
+    return FieldComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.FieldComponent = FieldComponent;
+//# sourceMappingURL=field.component.js.map

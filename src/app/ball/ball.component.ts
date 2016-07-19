@@ -10,6 +10,9 @@ import { Shape, Size, Position } from '../shape';
 })
 export class BallComponent extends Shape implements OnInit {
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.size = new Size(10,10);
+    this.position = new Position(100,100);
+  }
 
 }

@@ -6,15 +6,15 @@ import {
   expect, it, xit,
   async, inject
 } from '@angular/core/testing';
-import {Shape, Size, Position} from './shape';
+import {Shape, Size, Position} from './';
 
 describe('Shape', () => {
   let shape;
 
   beforeEach(() => {
-    let size = new Size(1,2);
-    let position = new Position(3,4);
-    shape = new Shape(position, size);
+    shape = new Shape();
+    shape.size = new Size(1,2);
+    shape.position = new Position(3,4);
   })
 
   it('should create an instance', () => {

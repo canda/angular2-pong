@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { FieldComponent } from './field/field.component';
+import { FieldComponent } from './field';
 
 @Component({
   moduleId: module.id,

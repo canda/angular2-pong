@@ -2,6 +2,19 @@
 angular 2 pong example using classes from node-console-pong https://github.com/canda/node-console-pong
 It's intended to be a guide on how to create an angular 2 application
 
+## Setup
+Fork and download the project
+```
+cd node-console-pong
+npm install -g angular-cli
+npm install
+ng serve
+```
+To run unit tests
+```
+ng test
+```
+
 ## ng-cli
 To create a new angular2 app
 ```

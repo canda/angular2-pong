@@ -5,7 +5,7 @@ It's intended to be a guide on how to create an angular 2 application
 ## Setup
 Fork and download the project
 ```
-cd node-console-pong
+cd angular2-pong
 npm install -g angular-cli
 npm install
 ng serve
